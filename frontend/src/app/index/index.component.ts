@@ -20,12 +20,14 @@ export class IndexComponent implements OnInit {
                 // console.log(this.imgs)
                 this.setRandImg();
         });
-
     }
 
     setRandImg(){
         let images = this.imgs;
         this.randImg = images[Math.floor(Math.random()*images.length)];
         console.log(this.randImg)
+    }
+    getRandImg(){
+
     }
 }
