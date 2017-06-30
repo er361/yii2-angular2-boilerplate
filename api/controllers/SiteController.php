@@ -15,8 +15,10 @@
             $response = new Response();
             $response->statusCode = 200;
             $response->data = Yii::t('app','pong');
-
             return $response;
+        }
+        public function actionIndex(){
+            echo 'index page';
         }
 
 

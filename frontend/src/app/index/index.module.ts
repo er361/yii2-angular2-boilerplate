@@ -14,7 +14,7 @@ import {IndexRoutingModule} from './index-routing.module';
     ],
     declarations: [
         IndexComponent,
-    ]
+    ],
 })
 export class IndexModule {
 }

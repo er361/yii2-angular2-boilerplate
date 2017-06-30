@@ -47,9 +47,10 @@ $config = [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-            'enableStrictParsing' => true,
+            'enableStrictParsing' => false,
             'rules' => [
                 'ping'  =>  'site/ping',
+                'projects' => 'projects/index',
                 [
 	                'class'         => 'yii\rest\UrlRule',
 	                'controller'    => 'v1/user',
